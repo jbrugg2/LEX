@@ -1,0 +1,8 @@
+body{
+    background-color: HSLA(187,100%,42%,0.22);
+}
+@media only screen and (max-width:500px){
+    body{
+        background-color: HSLA(64,100%,62%,0.45);
+    }
+}

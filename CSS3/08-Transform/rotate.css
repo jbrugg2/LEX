@@ -1,0 +1,4 @@
+table tr:hover{
+    transform:rotate(5deg);
+    background-color:#aaa;
+}

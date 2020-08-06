@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Border Image</title>
+        <style>
+            body {
+                background-color: #f9eabe;
+            }
+            img {
+                border: 50px solid transparent;
+                border-image:url('border_image_4.jpg');
+                border-image-slice: 110; 
+                border-image-repeat: round;
+                
+               
+                height: 300px; 
+                width: 300px; 
+             } 
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+           <img src="birthday.jpg" alt="Birthday image">
+        </div>
+    </body>
+</html>

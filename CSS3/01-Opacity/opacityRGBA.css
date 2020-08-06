@@ -1,0 +1,18 @@
+#parent
+{
+    background-color: #2196f3;
+    border: 1px solid white;
+    height:200px;
+    width:200px;
+}
+#child
+{
+    background-color: RGBA(128,128,128,0.5);
+    /* Using RGBA to only make background color opaque */
+    border: 1px solid white;
+    color: white;
+    height:200px;
+    width:400px;
+    margin-left:50px;
+    margin-top:50px;
+}

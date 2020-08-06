@@ -1,0 +1,13 @@
+@keyframes myanimation{
+    0%{background: black;}
+    25%{background:red}
+    50%{background:green}
+    75%{background:blue}
+    100%{background:white}
+}
+
+div{
+    height: 200px;
+    width:200px;
+    animation: myanimation 10s linear 1s infinite alternate;
+}

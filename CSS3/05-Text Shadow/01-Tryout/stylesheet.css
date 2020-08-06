@@ -1,0 +1,30 @@
+.heading1 {
+    /* text-shadow:0 0 3px #fff, -2px -2px 0 hsl(172, 70%, 35%),-2px -2px 1px hsl(172, 36%, 48%),-2px -2px 2px hsl(80, 28%, 17%); */
+    text-shadow:0 0 10px blue
+
+  }
+
+.glow {
+    text-shadow:0 0 10px blue
+}
+/* 
+  Text Shadow components
+  text-shadow: horiz-offset vert-offset blue dist shadow-color
+
+horizontal offset
+- Positive value creates a shadow to the right.
+- Negative value creates the shadow to the left
+
+vertical offset
+- Positive value creates a shadow to the bottom.
+- Negative value creates the shadow to the top.
+
+blur distance
+- An optional value which decides the percentage of blur effect takes only positive value.
+
+color
+- An optional value which specifies the shadow color.
+
+Multiple text shadows separated with comma ,
+
+glow effect with 0 hor/vert values with high blur */

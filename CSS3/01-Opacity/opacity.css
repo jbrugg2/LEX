@@ -1,0 +1,23 @@
+#parent
+{
+    background-color: #2196f3;
+    border: 1px solid white;
+    height:200px;
+    width:200px;
+}
+
+#child
+{
+    background-color: grey;
+    border: 1px solid white;
+    color: white;
+    height:200px;
+    width:400px;
+    margin-left:50px;
+    margin-top:50px;
+
+    opacity:0.5;
+    /* Range is from 0 to 1. 0 is full transparent.
+    1 is fully opaque. Default is 1. Child element
+    and text within has value of parent. */
+}

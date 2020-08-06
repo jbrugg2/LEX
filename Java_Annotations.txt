@@ -1,0 +1,43 @@
+@Override - Explicitely overrides a method implemented in a parent class
+@Test - JUnit annotation stating method contains assertions for testing.
+@FunctionalInterface - Specifices the interface is a Functional Interface that restricts to one abstract method. Useful for lambda expressions
+@Configuration - This is a Java configuration class for Spring containers.
+@Bean - Given to methods. Change name with @Bean(name="altName). A dependency handled by Spring
+@Component - General purpose annotation for beans. All classes usable.
+@ComponentScan - Used in configuration to scan for dependent beans in same package. Use basePackages attribute to seek dependencies.
+@Service - Define service layer bean. Specialization of @Component
+@Repository - Define persistence layer Spring bean. Specialization of @Component
+@Controller - Used to define web component. Specialization of @Component
+@Autowired - Letting Spring IoC container inject dependencies into dependent bean classes without defining in configuration class.
+@Qualifier("containerName") - Specifies to @Autowired which implementation is being used for autowiring.
+@SpringBootApplication - applied with Spring Initializr. triggers auto-configuration and component scanning. Can declare one or more @Bean methods.
+	- Argument identifies primary component.
+@EnableAutoConfiguration - enables auto-configuration based on the dependencies that you have added.
+@Aspect - A class that implements AOP for reducing cross-cutting functions. Declare with @Component or its derivitives
+@Before - This method in the Aspect class executes before the join-point.
+@AfterReturning - This method in the Aspect class executes after the join-point finishes.
+@AfterThrowing - This method in the Aspect class executes if any exception is thrown from the join-point
+@After(Finally) - This method in the Aspect class executes after the join-point, always.
+@Around - This method in the Aspect class executes before and after the join-point.
+@SpringBootTest - class annotation for JUnit testing. loads ApplicationContext using SpringApplication so all Spring Boot features are available.
+@RunWith(SpringRunner.class) - Tells JUnit to invoke SpringRunnerclass to run the tests instead of built in runner.
+@Mock - Creates mock object with Mockito. A consistent dependency to test with.
+@InjectMocks - Inject the created mock object into the a new object that is dependent on it.
+@Rule - used with ExpectedException in JUnit testing with spring boot
+@Cacheable - A method called many times with this annotation will have it's results cached using Simple.
+@EnableCaching - Use in main class to enable caching of method calls.
+@BeforeClass - always static method. Ran once before any test methods are executed in a test class.
+@AfterClass - Always static method. Ran once after all test methods are executed. Closing files/connections.
+@Before - Executes before every test method. For data initialization setup.
+@After - Executes after every test method. For releasing resources.
+@XmlRootElement - Allows JAXB(JavaArchitecture for XML Binding) to write/read data object. Class level
+
+
+@Entity - This is mapping a table in the relational database
+@Table(name="TableName") - what table the Entity maps to
+@Transactional
+@Id - Use with JPA to make primary key
+@Column(name = "emailid")
+@GeneratedValue - Use with JPA to make primary key
+@SequenceGenerator - Sequence strategy primary key. Example: Demo_SpringBoot_Sequence_Strategy
+@SuppressWarnings("serial")

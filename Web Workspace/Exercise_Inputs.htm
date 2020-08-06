@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Input Exercise</title>
+    </head>
+    <body>
+        <h1>Sign Up!</h1>
+        <form>
+            <table>
+                <tr>    
+                    <td><label for="username">Username:</label></td> 
+                    <td><input id="username" type="text"></td> <br>
+                </tr>   
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input id="password" type="password"></td> <br>
+                </tr>
+
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" value="M">
+
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female" value="F" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="dob">DOB:</label></td>
+                    <td><input type="date" id="dob"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phone">Phone number:</label></td>
+                    <td><input type="text" id="phone" pattern="[0-9]{10}" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email ID:</label></td>
+                    <td><input type="email" id="email" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="lang">Languages Known:</label></td>
+                    <td>
+                        <label for="english">English</label>
+                        <input type="checkbox" name=lang id=english value="E">
+
+                        <label for="hindi">Hindi</label>
+                        <input type="checkbox" name=lang id=hindi value="H">
+
+                        <label for="french">French</label>
+                        <input type="checkbox" name=lang id=french value="F">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="pic">Profile pic:</label></td>
+                    <td><input type="file" id="pic"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" value="Register"></td>
+                    <td><input type="reset"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

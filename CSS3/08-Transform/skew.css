@@ -1,0 +1,4 @@
+table tr:hover{
+    transform: skew(7deg,7deg);
+    background-color:#aaa;
+}

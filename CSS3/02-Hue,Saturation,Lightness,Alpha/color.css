@@ -1,0 +1,20 @@
+#color_rgba
+{
+    background-color: rgba(0,80,100,1);
+    /* Opacity set to 0.38 */
+}
+#color_hsl
+{
+    background-color: hsl(235,48%,86%);
+    /* Color with HSL color model:
+    Hue: 0-359 
+    Saturation: 0-100%, 100=full hue, 0=grey shade
+    Lightness: 0-100%, 0=black, 50=hue, 100=white*/
+}
+#color_hsla
+{
+    background-color:hsla(0,80%,60%,0);
+    /* HSLA color and 0.28 opacity
+    Alpha: 0-1, 0=transparent, 1=opaque*/
+    color:rgba(0,80,100,1);
+}

@@ -1,0 +1,16 @@
+.myDIV 
+{ 
+    border: 15px solid transparent;
+    border-image:url('border.png');
+    border-image-slice: 30; 
+    border-image-repeat: round; 
+    border-image-outset:1px; 
+    height: 100px; 
+    padding: 15px; 
+    width: 300px; 
+}
+/* 
+Border and border image properties are mandatory
+
+Border-image-repeat -> round, stretch the image */
+
